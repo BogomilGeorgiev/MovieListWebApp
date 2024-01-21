@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo h1 {
+  font-family: "Nosifer", sans-serif;
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+.logo span {
+  font-size: 3.3rem;
+}

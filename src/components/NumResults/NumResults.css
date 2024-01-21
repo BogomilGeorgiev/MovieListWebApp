@@ -1,0 +1,10 @@
+.num-results {
+  justify-self: end;
+  font-size: 2.3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.num-results span {
+  font-weight: bold;
+}

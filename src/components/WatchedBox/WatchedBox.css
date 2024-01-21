@@ -1,0 +1,28 @@
+.watched-summary {
+  padding: 2.2rem 3rem 2rem 6rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 1.7rem 1.8rem rgba(148, 147, 147, 0.959);
+  color: var(--color-text);
+}
+
+.watched-summary h1 {
+  margin: 2rem auto 2rem auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.watched-stats {
+  display: flex;
+  gap: 1.8rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.watched-stats p {
+  font-weight: bold;
+}
+
+.watched-stats span {
+  margin-left: 8px;
+}

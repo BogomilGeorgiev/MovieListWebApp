@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lora&family=Nosifer&family=Roboto:wght@400;500;700&family=Rubik&family=Titillium+Web&family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --color-text: #f5ecec;
+  --color-background-dark: rgb(79, 78, 78);
+  --color-background-light: rgb(101, 99, 99);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: var(--color-background-dark);
+  padding: 2.2rem;
+  color: var(--color-background-dark);
+}

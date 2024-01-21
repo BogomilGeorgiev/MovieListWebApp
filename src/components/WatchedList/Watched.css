@@ -1,0 +1,27 @@
+.del-btn {
+  cursor: pointer;
+  position: absolute;
+  left: 90%;
+  /* top: 50%; */
+  bottom: 68%;
+  background: none;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.5rem;
+}
+
+.del-btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.del-btn:active {
+  transform: scale(1.2);
+}
+
+.watched-list-li {
+  transition: all 0.3s;
+}
+
+.watched-list-li:hover {
+  background-color: rgb(119, 118, 118);
+}

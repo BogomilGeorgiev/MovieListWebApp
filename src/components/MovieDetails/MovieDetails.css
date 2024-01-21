@@ -1,0 +1,82 @@
+.movie-details-box {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.movie-details-box header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(109, 105, 105);
+}
+
+.movie-details-box button {
+  margin-right: 38rem;
+  margin-top: 0.8rem;
+}
+
+.movie-details-box section {
+  display: flex;
+  pad: 4rem;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-left: 10px;
+}
+
+.movie-details-box span {
+  margin-right: 3px;
+  font-weight: 800;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.movie-details span {
+  margin-right: 3px;
+}
+
+.back-btn {
+  cursor: pointer;
+  position: absolute;
+  padding: 2px 4px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  font-size: 2rem;
+}
+
+.back-btn:active {
+  transform: scale(1.2);
+}
+
+.add-btn {
+  cursor: pointer;
+  width: 60%;
+  margin-left: 37rem;
+  padding: 1rem;
+  border-radius: 10rem;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--color-text);
+  background-color: rgb(6, 101, 149);
+  transition: all 0.8s ease;
+}
+
+.add-btn:hover {
+  background-color: rgb(51, 128, 167);
+}
+
+.movie-details-box img {
+  width: 40%;
+  margin-top: 2rem;
+  border: 2px solid white;
+  border-radius: 10%;
+}
